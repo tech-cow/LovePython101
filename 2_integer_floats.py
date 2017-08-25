@@ -67,18 +67,18 @@ print num1 + num2
 # 一台计算机，他可以通过计算机来计算他需要多少稻草人才能借到10万只箭
 # 价格如下，诸葛亮一共需要多少钱(四舍五入哟)才能去借箭呢？
 
-# 计算机给出以下提示：
+# 计算机给出了江湖奸商的价格表格：
 
 # 品种               载重           数量           价格
 # 普通稻草人          500           x无限          100
 # VIP稻草人          1532           x5            150
 # Maggie专用稻草人   2000           x1             1
 
-price_maggie = 1
-price_vip = 150*5
+p_maggie = 1
+p_vip = 150*5
 quan_reg = (100000 - 2000 - (1532*5)) / 500.0   #记得提醒float操作
-price_regular = quan_reg * 100
-total = price_vip + price_maggie + price_regular
+p_reg = quan_reg * 100
+total = p_vip + p_maggie + p_reg
 print total
 
 res = round(total)
