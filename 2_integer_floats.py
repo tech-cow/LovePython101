@@ -81,4 +81,6 @@ price_regular = quan_reg * 100
 total = price_vip + price_maggie + price_regular
 print total
 
+res = round(total)
+
 print res
