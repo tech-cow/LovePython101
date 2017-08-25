@@ -74,11 +74,6 @@ print num1 + num2
 # VIP稻草人          1532           x5            150
 # Maggie专用稻草人   2000           x1             1
 
-total = 100000
-regular = 500
-vip = 1000
-maggie = 2000
-
 price_maggie = 1
 price_vip = 150*5
 quan_reg = (100000 - 2000 - (1532*5)) / 500.0   #记得提醒float操作
