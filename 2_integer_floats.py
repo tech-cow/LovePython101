@@ -80,10 +80,6 @@ print num1 + num2
 p_maggie = 1
 p_vip = 150*5
 quan_reg = (100000 - 2000 - (1532*5)) / 500.0   #记得提醒float操作
-p_reg = quan_reg * 100
+p_reg = round(quan_reg) * 100  #数量需要整数
 total = p_vip + p_maggie + p_reg
 print total
-
-res = round(total)
-
-print res
