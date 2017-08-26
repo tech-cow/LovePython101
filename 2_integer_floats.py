@@ -18,13 +18,15 @@ print 3 - 4
 print 3 * 4
 
 #除
-# 讲明白这里面的 3/4 和 3//4的区别
-#print 3/4
-print 3 // 4
+# 讲明白这里面的 3/2 和 3/2.0 的区别
+print 3 / 2
+print 3 / 2.0
+print 3 / float(2)
 
 
 # Exponential
 print 3 ** 3
+
 # Modulus
 # 确认一个数是基数还是偶数 ， 是否能被整除
 # 举例： fizzbuzz
