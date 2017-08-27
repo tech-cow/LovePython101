@@ -22,7 +22,6 @@ print "乘: 3*4= ", 3 * 4
 print "除: 3/2 = ", 3 / 2   #讲明白这里面的 3/2 和 3/2.0 的区别
 print "除: 3/2.0 = ", 3 / 2.0  # 2.0 英语的梗
 print "除: 3/float(2) = ", 3 / float(2)
-
 star()
 
 
@@ -32,36 +31,35 @@ print "指数： 3^3: ", 3 ** 3
 # 确认一个数是基数还是偶数 ， 是否能被整除
 # 举例： fizzbuzz
 print "取模运算符: 3%2= ", 3 % 2
-
-
-
 #大杂烩
 print "大杂烩: ", 3 * (2+1)
-
+star()
 
 # Count增加
+print "增量:"
 num = 1
 num = num + 1
 num += 1
 print num
 num *= 10
 print num
-num //= 5
+num /= 5
 print num
-
+star()
 
 #绝对值
-print abs(-100)
+print "绝对值: abs(-100): ", abs(-100)
 
-#round
-print round(3.99, 1)
+#四舍五入
+print "四舍五入: round(3.99, 1)", round(3.99, 1)
 
 
 # String casting
+print "Casting: "
 num1 = int("20")
 num2 = int("30")
 print num1 + num2
-
+star()
 
 
 
@@ -83,7 +81,7 @@ print num1 + num2
 waist = 69 * 0.74
 weight = 58 * 0.082 + 34.89
 p1 = (waist - weight) / 58 * 100
-print "percent1", p1
+print "脂肪含量1= ", p1
 
 # 测量方法二：BMI公式法
 
@@ -92,7 +90,8 @@ print "percent1", p1
 
 BMI = 58/(1.65*1.65)
 p2 = (1.20 * BMI + (0.23 * 25) - 5.4)
-print "precent2", p2
+print "脂肪含量2= ", p2
+star()
 
 
 
@@ -119,4 +118,4 @@ p_vip = 150*5
 quan_reg = (100000 - 2000 - (1532*5)) / 500.0   #记得提醒float操作
 p_reg = round(quan_reg) * 100  #数量需要整数
 total = p_vip + p_maggie + p_reg
-print total
+print "需要总额: ", total
