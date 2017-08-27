@@ -5,11 +5,10 @@ def star():
 
 
 #第二课， 加减乘除，Integer/Floats
-# String
+# String的问题所在，以及计算的Introduction
 # num1 = "20"
 # num2 = "30"
 # print num1 + num2
-
 
 star()
 #加
