@@ -1,42 +1,42 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+def star():
+  print "********************"
+
 
 #第二课， 加减乘除，Integer/Floats
-
-
 # String
 # num1 = "20"
 # num2 = "30"
 # print num1 + num2
 
 
+star()
 #加
-print 3 + 2
+print "加: 3+2= ", 3 + 2
 #减
-print 3 - 4
+print "减: 3-4= ", 3 - 4
 #乘
-print 3 * 4
-
+print "乘: 3*4= ", 3 * 4
 #除
-# 讲明白这里面的 3/2 和 3/2.0 的区别
-# 2.0英语的梗
-print 3 / 2
-print 3 / 2.0
-print 3 / float(2)
+print "除: 3/2 = ", 3 / 2   #讲明白这里面的 3/2 和 3/2.0 的区别
+print "除: 3/2.0 = ", 3 / 2.0  # 2.0 英语的梗
+print "除: 3/float(2) = ", 3 / float(2)
+
+star()
 
 
 # Exponential
-print 3 ** 3
-
+print "指数： 3^3: ", 3 ** 3
 # Modulus
 # 确认一个数是基数还是偶数 ， 是否能被整除
 # 举例： fizzbuzz
-print 3 % 2
+print "取模运算符: 3%2= ", 3 % 2
 
 
 
 #大杂烩
-print 3 * (2+1)
+print "大杂烩: ", 3 * (2+1)
 
 
 # Count增加
