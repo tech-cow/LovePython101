@@ -52,10 +52,12 @@ def annocement3():
         print '昨晚' + str(temp) + '玩家死亡, 他的身份是: ' + identity
     print player
 
-
 #守卫版上帝发言:
 def annocement4():
-    if isSave and isSheild is not temp:
+    if isSave and isSheild is temp:
+        identity = player.pop(temp)
+        print '昨晚' + str(temp) + '玩家死亡, 他的身份是: ' + identity
+    elif isSave or isSheild is temp:
         print '昨晚平安夜'
     else:
         identity = player.pop(temp)
