@@ -17,13 +17,13 @@ player = ['wolf','wolf','wolf','seer','witch','sheild','fart villager','fart vil
 
 
 #狼人请睁眼
-temp = input("狼人请睁眼，请选择猎杀目标")
+temp = input("狼人请睁眼，请选择猎杀目标:  ")
 
 #女巫请睁眼
-isSave = input('女巫请睁眼，救人请输入1，不救人请输入0')
+isSave = input('女巫请睁眼，救人请输入1，不救人请输入0:  ')
 
 #当白痴牌被换成了守卫牌，守卫请睁眼
-isSheild = input('守卫请睁眼，选择守护的人')
+sheild = input('守卫请睁眼，选择守护的人是:  ')
 
 #白痴版上帝发言1
 def annocement1():
@@ -54,10 +54,10 @@ def annocement3():
 
 #守卫版上帝发言:
 def annocement4():
-    if isSave and isSheild is temp:
+    if isSave and sheild is temp:
         identity = player.pop(temp)
         print '昨晚' + str(temp) + '玩家死亡, 他的身份是: ' + identity
-    elif isSave or isSheild is temp:
+    elif isSave or sheild is temp:
         print '昨晚平安夜'
     else:
         identity = player.pop(temp)
